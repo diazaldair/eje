@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    .contenedor-flexible{
+        display: flex;
+        /*flex-direction: column;*/
+        /*flex-direction: row-reverse;*/
+        /*flex-direction: column-reverse;*/
+        flex-direction: row;
+        /*justify-content: center;*/
+        /*justify-content: space-between;*/
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        
+    }
+    .uno{
+        background-color: aqua;
+        width:  150px;
+        height: 50px;
+        color: black;
+    }
+    .dos{
+        background-color: rgb(200, 255, 0);
+        width:  150px;
+        height: 150px;
+        color: black;
+    
+    }
+    .tres{
+        background-color: rgb(128, 0, 255);
+        width:  150px;
+        height: 50px;
+        color: black;
+    }
+    .cuatro{
+        background-color: rgb(255, 106, 0);
+        width:  150px;
+        height: 150px;
+        color: rgb(0, 0, 0);   
+    }
+    .cinco{
+        background-color: rgb(200, 255, 0);
+        width:  150px;
+        height: 50px;
+        color: black;
+    
+    }
+    .seis{
+        background-color: rgb(128, 0, 255);
+        width:  150px;
+        height: 150px;
+        color: black;
+    }
+    .siete{
+        background-color: rgb(255, 106, 0);
+        width:  150px;
+        height: 50px;
+        color: rgb(0, 0, 0);   
+    }
+</style>
+<style>
+    .contenedor-flexible2{
+        display: flex;
+        /*flex-direction: column;*/
+        /*flex-direction: row-reverse;*/
+        flex-direction: column-reverse;
+       
+    }
+    .uno1{
+        background-color: aqua;
+        width:  150px;
+        height: 150px;
+        color: black;
+    }
+    .dos2{
+        background-color: rgb(200, 255, 0);
+        width:  150px;
+        height: 150px;
+        color: black;
+    
+    }
+    .tres3{
+        background-color: rgb(128, 0, 255);
+        width:  150px;
+        height: 150px;
+        color: black;
+    }
+    .cuatro4{
+        background-color: rgb(255, 106, 0);
+        width:  150px;
+        height: 150px;
+        color: rgb(0, 0, 0);   
+    }
+</style>
+<body>
+    <div class="contenedor-flexible">
+        <div class="uno">elemento1</div>
+        <div class="dos">elemento2</div>
+        <div class="tres">elemento3</div>
+        <div class="cuatro">elemento4</div>
+        <div class="cinco">cinco5</div>
+        <div class="seis">seis6</div>
+        <div class="siete">siete7</div>
+    </div>
+    <div class="contenedor-flexible2">
+        <div class="uno1">elemento2/1</div>
+        <div class="dos2">elemento2.2</div>
+        <div class="tres3">elemento2.3</div>
+        <div class="cuatro4">elemento2.4</div>
+    </div>
+</body>
+</html>
